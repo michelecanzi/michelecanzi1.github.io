@@ -1,0 +1,51 @@
+.navbar-light .navbar-brand {
+    color: #117a8b;
+}
+h1,h2 {
+  color: #24bcd4;
+  weight: 600;
+}
+
+body {
+  color: black;
+  weight: 400;
+}
+
+.lgpad {
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+body .jumbotron-special {
+    margin-bottom: 0px;
+    position: relative;
+    background: none;
+    color: ##117a8b;
+  }
+.bpad {
+  padding-top: 100px;
+}
+
+.jumbotron-special .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(AsiaMap.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+     -o-filter: blur(5px);
+     -ms-filter: blur(5px);
+     filter: blur(5px);
+     z-index: -1;
+}
+
+
+.btn-primary {
+  background-color: #117a8b;
+  border-color: #117a8b;
+  }
